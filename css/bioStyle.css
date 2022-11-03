@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+#homeMastehead{
+	background-color:teal;
+}
+
+header{
+	font-family:'Roboto', sans-serif;
+}
+
+section{
+	background-color:teal;
+}
+
+navigation{
+	font-family:'Roboto Slab', serif;
+}
+
+a:link, a:visted{
+	color:black;
+}
+
+a:hover{
+	color:#E60289;
+}
+
+.body{
+	background-color:teal;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color:darkturquoise;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+	.icon-bar a:hover {
+	background-color:#368E9C;
+}
+
+.instagram{
+	background:white;
+	color:darkturquoise;		
+}
+
+.facebook {
+  	background:white;
+  	color:darkturquoise;
+}
+
+.twitter {
+  	background:white;
+  	color:darkturquoise;
+}
+
+footer {
+	background-color: teal;
+	padding:100px 100px 100px 100px;
+	color:white;
+}
