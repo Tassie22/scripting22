@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+    background-image: url("../thoughts/outsideGirl.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+	font-family: 'Press Start 2P', cursive;
+	color:white;
+	
+}
+
+.customHeight{
+    height:80vh;
+}
+
+body{
+	background-color:#BF7A9B;
+	color:white;
+	font-family:'Oswald', sans-serif;
+}
+
+h2{
+	color:#0D0D0D;
+}
+
+/*outside div that is wrapped around all customizaiton divs */
+
+#builder{
+    position: relative;
+    height: 650px;
+}
+
+/**All internal customization divs need to positioned absolute to stack them up**/
+#face, #glasses,{
+    position:absolute;
+}
