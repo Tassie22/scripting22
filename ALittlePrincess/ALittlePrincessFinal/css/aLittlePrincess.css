@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+/*font-family: 'Raleway', sans-serif;*/
+
+
+							/*Backround color*/
+header{
+    background-color: #DA90A2;
+    text-align: center;
+	text-font:50px;
+    padding: 20px 20px;
+	margin:auto;
+    color: white;
+	border-width:10px;
+	border-style:solid;
+	border-color:#e9e4de;
+	border-align:right;
+	font-family: 'Roboto', sans-serif;
+	max-width: 800px;
+	text:bold;
+	text-shadow: 1px 1px 1px purple;
+	
+	}
+
+navigation{
+	font-family: 'Roboto', sans-serif;
+}
+
+section{
+	text-shadow: 1px 1px 1px purple;
+	text-align: center;
+	color:white;
+	overflow:hidden;
+	background-color:#da90a2;
+	font-family: 'Raleway', sans-serif;
+	border-width:10px;
+	border-style:solid;
+	border-color:#e9e4de;
+	padding:10px 10px;
+	float:auto;
+	float-image:right;
+	max-width:800px;
+	padding-tb:10px 10px;
+	margin:auto
+	
+	
+	/*/ this will make the section the size of all the contents even those floating/**/
+	/*overflow:hidden;*/
+	
+}
+
+section img{
+	float: right;
+	}
+
+	
+html{
+	background-color:#dbb6c8;
+}
+                          /*Location of the Link*/
+	
+a:link{
+	color:#e9e4de;
+	}
+
+/*previously been to the location of the link*/
+a:visted{
+	color:#da90a2;
+	}
+
+a:hover{
+	color:#e9e4de;
+	}
+
+a:active{
+	color:pink;
+	}
+
+/***************************************Button Styling**************/
+
+button{
+	background-color:#dbb6c8;
+	padding:16px 32px;
+	font-size:16px;
+	/* change to a pointer finger*/
+	cursor:pointer;
+	/**border default- same color as backround**/
+	border:2px solid #da90a2;
+	/*add a transition to fade bewteen the states*/
+	transition-duration: 0.4s;
+	}
+
+/*******************************************************************/
+
+button:hover{
+	background-color:#da90a2; 
+	/**get rid of the underline*/
+	text-decoration:none;
+	}
+
+/*******************************************************************/
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #dbb6c8;
+	font-color:#da90a2;
+	/*************************back-round color of the whole bar********/
+}
+
+nav li {
+	/*put the list items side by each*/
+	float: centre;
+	border-width:1px;
+	border-style:solid;
+	border-color:#e9e4de;
+	font-color:#da90a2;
+	
+}
+
+nav li a:link {
+ 	display:block;
+	color: purple;
+ 	text-align: center;
+ 	padding: 5px 1px;
+ 	text-decoration: none;
+	/*added duration for a fade*/
+	transition-duration:0.6s;
+	
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+	background-color: #da90a2;
+	border-width:1px;
+	border-style:solid;
+	border-color:#e9e4de;
+	color:white;
+	
+}
+
+/*make a Class that adds the stickiness to the nav bar*/
+
+.sticky{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+
+Footer{
+	text-shadow: 1px 1px 1px purple;
+	color:white;
+	border-width:10px;
+	border-style:solid;
+	border-color:#e9e4de;
+	background-color:#da90a2;
+	text-align: center;
+	padding-bottom: 15px;
+}	
+	
+	
+	
+ 
